@@ -11,8 +11,16 @@ cout << "ingrese el caracter:";
 cin >> crt;
 cout << "\ningrese el numero:";
 cin >> numero;
-
-// ToDO
-// implemente el algoritmo.
-  return 0;
+if (crt == 'a' || crt == 'c' || crt == 'g'|| crt =='e' ){
+  if (numero%2!=0)
+  cout << "negro"<<endl;
+  else
+  cout<<"blanco"<<endl;
+}
+else{ 
+  if (numero %2 == 0 )
+  cout<<"negro"<<endl;
+  else
+  cout<<"blanco"<<endl;
+}
 }
