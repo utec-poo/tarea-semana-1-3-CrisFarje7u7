@@ -1,26 +1,27 @@
 #include <iostream>
-#include "Tipos.h"
+
 using namespace std;
 
 int main() {
 
-entero numero;
-caracter crt;
+int numero;
+char crt;
 
-cout << "ingrese el caracter:";
+cout << "Ingrese el caracter: \n";
 cin >> crt;
-cout << "\ningrese el numero:";
+cout << "Ingrese el numero: \n";
 cin >> numero;
 if (crt == 'a' || crt == 'c' || crt == 'g'|| crt =='e' ){
   if (numero%2!=0)
-  cout << "negro"<<endl;
+  cout << "El color de la casilla es negro\n";
   else
-  cout<<"blanco"<<endl;
+  cout<<"El color de la casilla es blanco\n";
 }
 else{ 
   if (numero %2 == 0 )
-  cout<<"negro"<<endl;
+  cout<<"El color de la casilla es negro\n";
   else
-  cout<<"blanco"<<endl;
+  cout<<"El color de la casilla es blanco\n";
 }
+return 0;
 }
